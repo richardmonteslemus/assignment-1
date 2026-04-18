@@ -20,7 +20,11 @@ Explain whether each scenario is a **classification or regression** problem, and
 
 **(b)** A conservation agency wants to know whether a proposed habitat corridor will successfully support wildlife movement or fail to do so. They collect data on 30 previously established corridors. For each corridor they have recorded whether wildlife movement was successful or unsuccessful, corridor width, length, surrounding land use type, and eight other variables.
 
-> **This is a classification problem since we are predicting if a corridor will successfully support wildlife movement or not and that is a binary variable. We are more interested in inference because the agency wants to understand which factors determine success, not just predict a new corridor. The size of the observation dataset is n = 30 and there are p = 11 predictors (corridor width, length, surrounding land use type, and eight other variables).**
+
+> **This is a prediction problem**
+
+
+> **This is a classification problem since we are predicting if a corridor will successfully support wildlife movement or not and that is a binary variable. We are more interested in prediction because the agency wants predit waht class (successful or unsuccessful) the corridor will be based on a number of predictors. The size of the observation dataset is n = 30 and there are p = 11 predictors (corridor width, length, surrounding land use type, and eight other variables).**
 
 ---
 
@@ -34,7 +38,7 @@ Explain whether each scenario is a **classification or regression** problem, and
 
 What are the advantages and disadvantages of a very flexible (versus a a less flexible) approach for regression? Under what circumstances might a more flexible approach be preferred to a less flexible approach? When might a less flexible approach be preferred?
 
-> **A very flexible approach will reduce error for the specific data we are using, so it can capture more complex patterns. The tradeoff is that it increases variance and may overfit, making it less generalizable to new data. A more flexible approach is preferred when the relationship is not a simple linear relationship. A less flexible approach is preferred when the relationship is linear.**
+> **A very flexible approach will reduce error for the specific data we are using, so it can capture more complex patterns. The tradeoff is that it increases variance and may overfit, making it less generalizable to new data. A more flexible approach is preferred when the relationship is not a simple linear relationship. A less flexible approach is preferred when the relationship is linear. When inference is the goal we may prefer a flexible approach that can capture general patterns nuances. When predicition is the goal, a less flexible approach might be better in order for it to be generalizable to diferent data and make reliable predictions we might rely on to make informed decisions.**
 
 ---
 
